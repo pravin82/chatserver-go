@@ -1,4 +1,4 @@
-package chatserver_go
+package main
 
 import "net"
 
