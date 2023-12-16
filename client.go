@@ -22,7 +22,7 @@ func (c *client) readInput() {
 			return
 		}
 		msg = strings.Trim(msg, "\r\n")
-		args := strings.Split(msg, "")
+		args := strings.Split(msg, " ")
 		cmd := strings.TrimSpace(args[0])
 
 		switch cmd {
