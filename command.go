@@ -9,3 +9,9 @@ const (
 	CMD_MSG
 	CMD_QUIT
 )
+
+type command struct {
+	id     commandId
+	client *client
+	args   []string
+}
